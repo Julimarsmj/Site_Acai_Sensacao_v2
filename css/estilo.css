@@ -1,0 +1,53 @@
+/*--Limpando configurações basicas--*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Cofigurações gerais*/
+body{
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*--Configurações do cabeçalho--*/
+#area_cabecalho {
+    background: green;
+    text-align: center;
+}
+
+#area_logo {
+    background: greenyellow;
+    padding: 10px;
+}
+
+#area_menu {
+    background: rgb(140, 197, 53);
+    margin: 15px;
+}
+
+/*--Configurações da área principál--*/
+#area_principal{
+    width: 920px;
+    margin: 0 auto;
+}
+
+.conteudo_principal{
+    background: greenyellow;
+    width: 600px;
+    float: left;
+}
+
+.conteudo_lateral {
+    background: rgb(141, 249, 141);
+    width: 300px;
+    float: right;
+}
+
+/*Configuração do área rodape*/
+#area_rodape {
+    clear: both;
+    margin-top: 30px;
+    text-align: center;
+    background: green;
+}
