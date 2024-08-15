@@ -21,6 +21,10 @@ body{
     padding: 10px;
 }
 
+area_logo h1{
+    font-size: 1.8em;
+}
+
 #area_menu {
     background: rgb(140, 197, 53);
     margin: 15px;
@@ -36,6 +40,7 @@ body{
     background: greenyellow;
     width: 600px;
     float: left;
+    margin-bottom: 15px;
 }
 
 .conteudo_lateral {
@@ -47,7 +52,7 @@ body{
 /*Configuração do área rodape*/
 #area_rodape {
     clear: both;
-    margin-top: 30px;
+    padding: 15px;
     text-align: center;
     background: green;
 }
