@@ -7,18 +7,23 @@
 /*Cofigurações gerais*/
 body{
     font-size: 1em;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 /*--Configurações do cabeçalho--*/
 #area_cabecalho {
-    background: green;
+    background-image: url('../imagens/plano_de_fundo_cabecalho.png');
     text-align: center;
+    height: 230px;
+    margin-bottom: 15px;
 }
 
 #area_logo {
-    background: greenyellow;
     padding: 10px;
+}
+
+#area_logo img{
+    width: 500px;
 }
 
 area_logo h1{
@@ -26,8 +31,24 @@ area_logo h1{
 }
 
 #area_menu {
-    background: rgb(140, 197, 53);
     margin: 15px;
+}
+
+#area_menu a{
+    color: #FF862C;
+    background: #3A0930;
+    padding: 10px;
+    display: inline-block; 
+    width: 200px; 
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#area_menu a:hover{
+    color:#3A0930;
+    background: #FF862C;
 }
 
 /*--Configurações da área principál--*/
@@ -37,16 +58,59 @@ area_logo h1{
 }
 
 .conteudo_principal{
-    background: greenyellow;
+    background: #3A0930;
     width: 600px;
     float: left;
     margin-bottom: 15px;
+    text-align: center;
+}
+
+.conteudo_principal h1{
+    margin-top: 5px;
+    font-weight: bold;
+    color: #FF862C; 
+}
+
+.conteudo_1{
+    background: #FF862C;
+    margin: 10px 5px;
+    width: 180px;
+    display: inline-block; 
 }
 
 .conteudo_lateral {
-    background: rgb(141, 249, 141);
+    margin-top: -174px;
+    background: #FF862C;
     width: 300px;
     float: right;
+}
+
+.conteudo_lateral_2 {
+    margin-top: -48px;
+    background: #FF862C;
+    width: 300px;
+    float: right; 
+}
+
+.conteudo_2{
+    color: #3A0930;
+    font-size: 15px;
+}
+
+.conteudo_2 h3{
+    color: #FF862C;
+    background: #3A0930;
+    margin: 5px;
+    padding: 5px;
+}
+
+.conteudo_2 ul li{
+    list-style-type: none;
+    margin: 5px;
+}
+
+.conteudo_2 p{
+    margin: 5px;
 }
 
 /*Configuração do área rodape*/
