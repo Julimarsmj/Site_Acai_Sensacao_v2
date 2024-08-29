@@ -75,18 +75,20 @@ area_logo h1{
     background: #FF862C;
     margin: 10px 5px;
     width: 180px;
+    height: 180px;
     display: inline-block; 
 }
 
+
 .conteudo_lateral {
-    margin-top: -174px;
+    margin-top: -503px;
     background: #FF862C;
     width: 300px;
     float: right;
 }
 
 .conteudo_lateral_2 {
-    margin-top: -48px;
+    margin-top: -360px;
     background: #FF862C;
     width: 300px;
     float: right; 
@@ -105,6 +107,7 @@ area_logo h1{
 }
 
 .conteudo_2 ul li{
+    text-align: left;
     list-style-type: none;
     margin: 5px;
 }
@@ -113,10 +116,22 @@ area_logo h1{
     margin: 5px;
 }
 
+.conteudo_2 a {
+    color: #3A0930;
+    text-decoration: none;
+}
+
+#area_principal a{
+    color: #3A0930;
+    text-align: center;
+    text-decoration: none;
+}
+
 /*Configuração do área rodape*/
 #area_rodape {
     clear: both;
     padding: 15px;
     text-align: center;
-    background: green;
+    background: #3A0930;
+    color: #FF862C;
 }
